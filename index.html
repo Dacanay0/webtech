@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee System</title>
+</head>
+<body>
+
+  <h1>Employee Management System</h1>
+
+  <!-- ADD EMPLOYEE FORM -->
+  <form id="add_form">
+
+    <input type="text" id="e_id" placeholder="Employee ID">
+
+    <input type="text" id="e_name" placeholder="Employee Name">
+
+    <input type="text" id="e_position" placeholder="Position">
+
+    <input type="number" id="e_salary" placeholder="Salary">
+
+    <button type="submit">Add Employee</button>
+
+  </form>
+
+  <!-- EMPLOYEE TABLE -->
+  <table border="1">
+
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody id="data_output"></tbody>
+
+  </table>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

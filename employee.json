@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "employeeID": "EMP001",
+    "name": "Juan Dela Cruz",
+    "position": "Manager",
+    "salary": 25000
+  },
+  {
+    "id": 2,
+    "employeeID": "EMP002",
+    "name": "Maria Santos",
+    "position": "Cashier",
+    "salary": 18000
+  }
+]
